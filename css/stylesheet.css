@@ -2,6 +2,10 @@
 h1 { color: blue;
 }
 
+body{
+  background-image:url("../images/background.jpg");
+}
+
 .btn-twitter
 {
   background: #00acee;
