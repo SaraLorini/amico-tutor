@@ -4,13 +4,17 @@ body{
 }
 
 .logo{
-  width:75px;
-  height:45px;
+  width:150px;
+  height:100px;
 }
 
-.nav-link {
-  background: purple;
+.navbar-brand{
   color: white;
+}
+.btn-outline-success{
+  background: white;
+  border-color: green;
+  color: green;
 }
 
 .img-circle{
