@@ -5,12 +5,17 @@ body{
 
 .logo{
   width:75px;
-  height:45px
+  height:45px;
 }
 
 .nav-link {
   background: purple;
   color: white;
+}
+
+.img-circle{
+  width:200px;
+  height:200px;
 }
 
 .btn-twitter{
