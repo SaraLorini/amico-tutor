@@ -5,16 +5,19 @@ body{
 
 .btn-twitter{
   background: #00acee;
- border-color: #009ad5;
+  border-color: #009ad5;
+  color: white;
 }
 
 .btn-facebook{
  background: #4868ac;
  border-color: #314776;
+ color: white;
 }
 .btn-pinterest{
  background: #b62f26;
  border-color: #b62f26;
+ color: white;
 }
 
 .center-block{
@@ -22,3 +25,8 @@ body{
   margin-left: auto;
   margin-right: auto;
 }
+
+.thumbnail{
+
+width:200px;
+height:200px
