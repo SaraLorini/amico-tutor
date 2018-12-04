@@ -13,26 +13,24 @@
   <div class="container">
   <div class="jumbotron">
   <div class="text-center">
-      <ul class="nav nav-tabs">
-        <li class="nav-item">
-          <img class="logo" src="images/img-logo.jpg" alt="logo">
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="form.html">Form</a>
-        </li>
-      </ul>
-<body>
+    <!-- As a link -->
+<nav class="navbar fixed-top navbar-light bg-light" style="background-color: purple;">
+  <a class="navbar-brand" href="index.html"> Home </a>
+  <a class="navbar-brand" href="about.html"> About Us </a>
+  <a class="navbar-brand" href="form.html"> Contact Form </a>
+  <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
+</nav>
 
+</div>
 <div class="text-center">
-<h1> Angel Online Tutoring </h1>
+<h1> Angel Online Tutoring<br> <em> - always on your side </em> </h1>
 </div>
 
+
+<body>
 
   <form>
     <div class="form-group">
@@ -41,6 +39,7 @@
       <label for="exampleFormControlInput1">Email address</label>
       <input type="email" class="form-control" id="FormControlInput1" placeholder="name@example.com">
     </div>
+
     <div class="form-group">
       <label for="FormControlSelect1">Select course start date</label>
       <select class="form-control" id="FormControlSelect1">
