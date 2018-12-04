@@ -22,22 +22,27 @@ body{
   height:200px;
 }
 
-.btn-twitter{
-  background: #00acee;
-  border-color: #009ad5;
-  color: white;
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    padding: 20px;
+    font-size: 40px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
 }
 
-.btn-facebook{
- background: #4868ac;
- border-color: #314776;
- color: white;
-}
-.btn-pinterest{
- background: #b62f26;
- border-color: #b62f26;
- color: white;
-}
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    padding: 20px;
+    font-size: 40px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+};
 
 .center-block{
   display: block;
